@@ -28,7 +28,7 @@ const KeyFeatures = () => {
   };
 
   return (
-    <section id="KeyFeatures" className="flex flex-col justify-center items-center box-border px-4 border-neutral-800 lg:pb-24 md:pb-20 pb-12">
+    <section id="KeyFeatures" className="flex flex-col justify-center items-center box-border px-4 border-neutral-800 lg:pb-24 md:pb-20 pb-12 mt-14">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 1.3 } }}

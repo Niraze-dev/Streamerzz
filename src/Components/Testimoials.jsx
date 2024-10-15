@@ -30,14 +30,14 @@ const Testimoials = () => {
     },
   };
   return (
-    <section id="Testimonials" className="flex flex-col justify-center items-center box-border px-4 border-b border-neutral-800 lg:pb-24 md:pb-20 pb-12 lg:mt-24 md:mt-20 mt-12">
+    <section id="Testimonials" className="flex flex-col justify-center items-center box-border px-4 border-b border-neutral-800 lg:pb-24 md:pb-20 pb-12 lg:mt-24 md:mt-20  mt-14">
       <motion.div
         variants={basicAnimations}
         initial="hidden"
         animate="visible"
         className="text-center"
       >
-        <h1 className="text-3xl lg:text-5xl  font-semibold tracking-tighter bg-gradient-to-t from-neutral-50 via-neutral-300 to-neutral-700 bg-clip-text text-transparent">
+        <h1 className="text-3xl lg:text-5xl  font-semibold tracking-tighter bg-gradient-to-t from-neutral-50 via-neutral-300 to-neutral-700 bg-clip-text text-transparent mt-20">
           {TESTIMONIALS_CONTENT.sectionTitle}
         </h1>
         <h1 className="text-neutral-400 text-lg mt-4 ">

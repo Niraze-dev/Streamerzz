@@ -36,16 +36,32 @@ const Navbar = () => {
 
       {/* Desktop Menu */}
       <div className="lg:flex items-center hidden gap-6">
-        <HashLink smooth to="#HowItWorks" className="hover:text-neutral-200  hover:scale-[102%] transition-all">
+        <HashLink
+          smooth
+          to="#HowItWorks"
+          className="hover:text-neutral-200  hover:scale-[102%] transition-all"
+        >
           How it works
         </HashLink>
-        <HashLink smooth to="#KeyFeatures" className="hover:text-neutral-200  hover:scale-[102%] transition-all">
+        <HashLink
+          smooth
+          to="#KeyFeatures"
+          className="hover:text-neutral-200  hover:scale-[102%] transition-all"
+        >
           Key Features
         </HashLink>
-        <HashLink smooth to="#Pricing" className="hover:text-neutral-200  hover:scale-[102%] transition-all">
+        <HashLink
+          smooth
+          to="#Pricing"
+          className="hover:text-neutral-200  hover:scale-[102%] transition-all"
+        >
           Pricing
         </HashLink>
-        <HashLink smooth to="#Testimonials" className="hover:text-neutral-200  hover:scale-[102%] transition-all">
+        <HashLink
+          smooth
+          to="#Testimonials"
+          className="hover:text-neutral-200  hover:scale-[102%] transition-all"
+        >
           Testimonials
         </HashLink>
       </div>
@@ -78,15 +94,38 @@ const Navbar = () => {
           // Slowing down the mobile menu transition
           className="lg:hidden fixed top-16 left-0 w-full bg-neutral-900 text-white flex flex-col items-center gap-6 py-4 transition-transform duration-300 ease-in-out"
         >
-          <a href="#" className="hover:text-neutral-300">
+          <HashLink
+            smooth
+            to="#HowItWorks"
+            className="hover:text-neutral-200  hover:scale-[102%] transition-all"
+            onClick={toggleMobileView}
+          >
             How it works
-          </a>
-          <a href="#" className="hover:text-neutral-300">
+          </HashLink>
+          <HashLink
+            smooth
+            onClick={toggleMobileView}
+            to="#KeyFeatures"
+            className="hover:text-neutral-200  hover:scale-[102%] transition-all"
+          >
+            Key Features
+          </HashLink>
+          <HashLink
+            smooth
+            onClick={toggleMobileView}
+            to="#Pricing"
+            className="hover:text-neutral-200  hover:scale-[102%] transition-all"
+          >
             Pricing
-          </a>
-          <a href="#" className="hover:text-neutral-300">
+          </HashLink>
+          <HashLink
+            smooth
+            onClick={toggleMobileView}
+            to="#Testimonials"
+            className="hover:text-neutral-200  hover:scale-[102%] transition-all"
+          >
             Testimonials
-          </a>
+          </HashLink>
           <a
             href="#"
             className="text-white bg-neutral-800 px-4 py-2 rounded-md bg-gradient-to-r from-neutral-800 to-neutral-700"

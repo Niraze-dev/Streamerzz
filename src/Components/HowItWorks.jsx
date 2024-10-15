@@ -48,7 +48,7 @@ const HowItWorks = () => {
   return (
     <section
       id="HowItWorks"
-      className="flex flex-col justify-center items-center box-border px-4 border-b border-neutral-800 lg:pb-24 md:pb-20 pb-12"
+      className="flex flex-col justify-center items-center box-border px-4 border-b border-neutral-800 lg:pb-24 md:pb-20 pb-12 mt-14"
     >
       <motion.div
         initial={{ opacity: 0, y: -20 }}
