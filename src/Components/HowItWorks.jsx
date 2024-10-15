@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { HOW_IT_WORKS_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css"; // Ensure the CSS is imported
+// import "react-lazy-load-image-component/src/effects/blur.css"; // Ensure the CSS is imported
 
 const HowItWorks = () => {
   const [loadedImages, setLoadedImages] = useState({});
